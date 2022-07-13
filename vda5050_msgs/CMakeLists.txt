@@ -38,7 +38,7 @@ set(msg_files
     "msg/NodePosition.msg"
     "msg/NodeState.msg"
     "msg/Order.msg"
-    "msg/OrderInformation.msg"
+    "msg/OrderState.msg"
     "msg/SafetyState.msg"
     "msg/Trajectory.msg"
     "msg/Velocity.msg"
@@ -46,7 +46,7 @@ set(msg_files
 )
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
-  DEPENDENCIES 
+  DEPENDENCIES
     std_msgs
     builtin_interfaces
 )
