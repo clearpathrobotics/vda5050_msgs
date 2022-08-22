@@ -16,13 +16,12 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 
 set(msg_files
-    "msg/AGVPosition.msg"
     "msg/Action.msg"
     "msg/ActionParameter.msg"
     "msg/ActionParameterDefinition.msg"
-    "msg/ActionScope.msg"
     "msg/AGVAction.msg"
     "msg/AGVGeometry.msg"
+    "msg/AGVPosition.msg"
     "msg/BatteryState.msg"
     "msg/BoundingBoxReference.msg"
     "msg/Connection.msg"
